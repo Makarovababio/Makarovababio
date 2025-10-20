@@ -11,3 +11,7 @@ Ce dépôt contient mes scripts et outils personnels utilisés sous Termux et Ka
 Pour exécuter un script :
 ```bash
 bash scripts/start-tor-firefox.sh
+
+## Licence
+
+Ce projet est sous licence **MIT** © 2025 **Makarov**. Consultez le fichier [LICENSE](LICENSE) pour plus de détails.
