@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/Makarovababio/Makarovababio/blob/main/logo.png" alt="Makarov Security" width="200"/>
+  <img src="tools/logo.png" alt="Makarov Security" width="200"/>
 </p>
 # Makarov Security Toolkit
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
