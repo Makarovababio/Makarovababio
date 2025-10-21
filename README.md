@@ -1,5 +1,15 @@
 # Makarov Security Toolkit
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Made for Termux](https://img.shields.io/badge/Platform-Termux-blue.svg)](https://termux.dev/)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Makarovababio%2FMakarovababio-black.svg?logo=github)](https://github.com/Makarovababio/Makarovababio)
+
+> Pack d'outils Termux / scripts d'audit — collection personnelle de Makarov  
+> Léger, portable et conçu pour les tests légaux et l'apprentissage.
+
+#
+
+
 > Pack d'outils Termux / scripts d'audit — collection personnelle de Makarov  
 > Léger, portable et conçu pour les tests légaux et l'apprentissage.
 
