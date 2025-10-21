@@ -1,5 +1,7 @@
+<p align="center">
+  <img src="https://github.com/Makarovababio/Makarovababio/blob/main/logo.png" alt="Makarov Security" width="200"/>
+</p>
 # Makarov Security Toolkit
-
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Made for Termux](https://img.shields.io/badge/Platform-Termux-blue.svg)](https://termux.dev/)
 [![GitHub Repo](https://img.shields.io/badge/GitHub-Makarovababio%2FMakarovababio-black.svg?logo=github)](https://github.com/Makarovababio/Makarovababio)
