@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="tools/logo2.png" alt="Makarov Security Toolkit" width="400"/>
+</p>
 cd ~/MonGitHub
 cat > README.md <<'EOF'
 <p align="center">
