@@ -1,48 +1,44 @@
+cd ~/MonGitHub
+cat > README.md <<'EOF'
 <p align="center">
   <img src="tools/logo.png" alt="Makarov Security" width="200"/>
 </p>
-# Makarov Security Toolkit
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Made for Termux](https://img.shields.io/badge/Platform-Termux-blue.svg)](https://termux.dev/)
-[![GitHub Repo](https://img.shields.io/badge/GitHub-Makarovababio%2FMakarovababio-black.svg?logo=github)](https://github.com/Makarovababio/Makarovababio)
-[![Build Status](https://img.shields.io/badge/Build-passing-success.svg)]()
-[![Version](https://img.shields.io/badge/Version-1.0.0-orange.svg)]()
-[![Maintained](https://img.shields.io/badge/Maintained-yes-brightgreen.svg)]()
-[![Makarov Security](https://img.shields.io/badge/Makarov-Security-critical.svg)]()
 
-> ⚔️ Pack d'outils **Termux / scripts d'audit** — collection personnelle de **Makarov**  
-> Léger, portable et conçu pour les tests légaux, la cybersécurité et l'apprentissage.
+<h1 align="center">⚡ Makarov Security Toolkit ⚡</h1>
+
+<p align="center">
+  <b>Pack d'outils Termux / scripts d'audit</b><br>
+  <i>Collection personnelle de Makarov — pour tests légaux et apprentissage.</i>
+</p>
+
+<p align="center">
+  <a href="https://github.com/Makarovababio/Makarovababio"><img src="https://img.shields.io/badge/Made%20with-Termux-green?style=flat-square" alt="Termux"></a>
+  <a href="https://github.com/Makarovababio/Makarovababio/blob/main/LICENSE"><img src="https://img.shields.io/badge/Licence-MIT-blue?style=flat-square" alt="Licence MIT"></a>
+  <a href="#"><img src="https://img.shields.io/badge/Statut-Stable-success?style=flat-square" alt="Statut"></a>
+</p>
 
 ---
 
-## ⚡ Présentation
-
-**Makarov Security Toolkit** regroupe une série de scripts et utilitaires destinés à faciliter des opérations :
-- d’audit et de test de pénétration (pentesting),
-- d’anonymisation réseau,
-- d’automatisation sous Termux (Android).
-
-Ce dépôt contient uniquement des **scripts et instructions** — il **n’inclut pas** de fichiers lourds ou sensibles.
+## ⚙️ Présentation
+**Makarov Security Toolkit** regroupe une série de scripts et utilitaires destinés à faciliter les opérations d’audit, d’anonymisation et d’automatisation sur **Termux**.  
+Ce dépôt contient uniquement des scripts légers et des instructions : aucune donnée lourde ni ressource illégale.
 
 ---
 
 ## 📦 Contenu principal
-
-| Dossier / Script | Description |
-|------------------|-------------|
-| `scripts/install-nethunter-termux` | Installe Kali NetHunter (version légère pour Termux) |
-| `scripts/metasploit.sh` | Script d’installation et wrapper pour Metasploit |
-| `scripts/start-tor-firefox.sh` | Lance Tor, vérifie l’adresse IP et ouvre le navigateur sécurisé |
-
-> **Note :** Les outils contenus ici sont fournis **à des fins éducatives et légales uniquement**.
+- `tools/whoami.sh` — script d'informations système et IP publique  
+- `tools/update-termux.sh` — mettre à jour Termux et nettoyer  
+- `tools/scan-port.sh` — scanner de ports basique (netcat)  
+- `tools/wifi-info.sh` — infos Wi-Fi (termux-api si dispo)  
+- `tools/extract-ip.sh` — récupérer IP publique et géolocalisation
 
 ---
 
 ## ▶️ Installation rapide (Termux)
-
-1. Cloner le dépôt :
-   ```bash
-   git clone git@github.com:Makarovababio/Makarovababio.git
-   cd Makarovababio
-   chmod +x scripts/*.sh
-   bash scripts/start-tor-firefox.sh
+```bash
+pkg update -y && pkg upgrade -y
+pkg install git curl nc termux-api -y
+git clone git@github.com:Makarovababio/Makarovababio.git
+cd Makarovababio
+chmod +x tools/*.sh
+bash tools/start-tor-firefox.sh
